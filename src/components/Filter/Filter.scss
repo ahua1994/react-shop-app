@@ -1,0 +1,25 @@
+.Filter { 
+    margin-right: 1rem;
+    p{
+        font-weight: bold;
+    }
+    .search{
+        width: 18rem;
+    }
+    .min-max {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .num {
+            width: 100px;
+            background-color: #111;
+            border: none;
+            color: whitesmoke;
+            margin-bottom: 1rem;
+        }
+        .reset{
+            font-weight: 500;
+        }
+    }
+}

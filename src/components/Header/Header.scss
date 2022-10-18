@@ -1,0 +1,12 @@
+ 
+.Header{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .underline{
+        height: 2px;
+        width: 20%;
+        background-color: whitesmoke;  
+    }
+}
