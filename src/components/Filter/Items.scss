@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;
     width: 100%;
+    min-width: 350px;
     .item-card {
         display: flex;
         flex-direction: column;
@@ -33,6 +34,9 @@
 }
 .categories{
     transform: translateX(-140px);
+}
+h3{  
+    transform:translate(-140px,12px)
 }
 @media screen and (max-width: 1700px) {
     .Items{
